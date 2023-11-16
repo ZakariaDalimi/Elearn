@@ -1,0 +1,152 @@
+/* Google Font CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Nunito sans", sans-serif;
+}
+body {
+	width: 100%;
+	background: #f1f1ff;
+	overflow-x: hidden;
+}
+.contact {
+	font-size: 48px !important;
+	margin: 3.5rem auto 2rem auto !important;
+}
+.main .container {
+	margin: 0 auto !important;
+	width: 85%;
+	background: #fff;
+	border-radius: 6px;
+	padding: 0px 60px 20px 40px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-bottom: 6rem !important;
+}
+.container .content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.container .content .left-side {
+	width: 25%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 15px;
+	position: relative;
+}
+.content .left-side::before {
+	content: "";
+	position: absolute;
+	height: 70%;
+	width: 2px;
+	right: -15px;
+	top: 50%;
+	transform: translateY(-50%);
+	background: #afafb6;
+}
+.content .left-side .details {
+	margin: 14px;
+	text-align: center;
+}
+.content .left-side .details i {
+	font-size: 30px;
+	color: rgb(68, 68, 68);
+	margin-bottom: 14px;
+}
+.content .left-side .details .topic {
+	font-size: 18px;
+	font-weight: 500;
+}
+.content .left-side .details .text-one,
+.content .left-side .details .text-two {
+	font-size: 14px;
+	color: #9f9fa4;
+	padding: 2px 0;
+}
+
+.container .content .right-side {
+	width: 75%;
+	margin-left: 75px;
+}
+.content .right-side .topic-text {
+	font-size: 23px;
+	font-weight: 600;
+	color: rgb(39, 39, 39);
+}
+.right-side .input-box {
+	height: 50px;
+	width: 100%;
+	margin: 16px 0;
+}
+.right-side .input-box input,
+.right-side .input-box textarea {
+	height: 100%;
+	width: 100%;
+	border: none;
+	outline: none;
+	font-size: 16px;
+	background: #f0f1f8;
+	border-radius: 6px;
+	padding: 16px !important;
+	resize: none;
+}
+.right-side .message-box {
+	min-height: 110px;
+}
+.right-side .button {
+	display: inline-block;
+}
+.right-side .button input[type="submit"] {
+	color: #fff;
+	font-size: 16px;
+	outline: none;
+	border: none;
+	padding: 12px;
+	background: #5553ff;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	width: 10rem;
+	font-weight: 600;
+}
+.button input[type="submit"]:hover {
+	background: #2320cc;
+}
+
+@media (max-width: 950px) {
+	.container {
+		width: 90%;
+		padding: 30px 40px 40px 35px;
+	}
+	.container .content .right-side {
+		width: 75%;
+		margin-left: 55px;
+	}
+}
+@media (max-width: 820px) {
+	.container {
+		margin: 40px 0;
+		height: 100%;
+	}
+	.container .content {
+		flex-direction: column-reverse;
+	}
+	.container .content .left-side {
+		width: 100%;
+		flex-direction: row;
+		margin-top: 40px;
+		justify-content: center;
+		flex-wrap: wrap;
+	}
+	.container .content .left-side::before {
+		display: none;
+	}
+	.container .content .right-side {
+		width: 100%;
+		margin-left: 0;
+	}
+}

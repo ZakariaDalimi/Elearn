@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Footer Design</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+      body {
+        line-height: 1.5;
+      }
+      footer .container {
+        max-width: 1170px;
+        margin: auto;
+      }
+      .rowFooter {
+        display: flex; 
+        flex-wrap: wrap;
+        margin-top: 60px;
+      }
+      ul {
+        padding-left: 0 !important;
+        list-style: none;
+      }
+      .footer {
+        background-color: #14142f;
+        padding-top: 70px;
+      }
+      .footer-col {
+        width: 25%;
+      }
+      .footer-col h4 {
+        font-size: 18px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 40px;
+        font-weight: 500;
+        position: relative;
+      }
+      .footer-col h4::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -16px;
+        background-color: #ffffff;
+        height: 1px;
+        box-sizing: border-box;
+        width: 60px;
+      }
+      .footer-col ul li:not(:last-child) {
+        margin-bottom: 12px;
+      }
+      .footer-col ul li a {
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+      }
+      .footer-col ul li a:hover {
+        color: #ffffff;
+        padding-left: 8px;
+      }
+
+      #linefooter {
+        width: 100%;
+        background-color: rgb(83, 83, 94);
+        height: 0.1px;
+        margin-top: 35px;
+        margin-bottom: 25px;
+      }
+
+      #thickLine {
+        width: 100%;
+        height: 1px;
+        margin-top: 25px;
+      }
+
+      #cop {
+        font-size: 12px !important;
+        color: #ddd;
+      }
+
+      /*responsive*/
+      @media (max-width: 767px) {
+        .footer-col {
+          width: 50%;
+          margin-bottom: 30px;
+        }
+      }
+      @media (max-width: 574px) {
+        .footer-col {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <footer class="footer">
+      <div class="container">
+        <h4 style="margin-bottom: 28px !important" class="text-light">
+          <img width="164px" src="assets/white_logo.svg" alt="" />
+        </h4>
+        <div id="thickLine" class="bg-light"></div>
+        <div class="rowFooter">
+          <div class="footer-col">
+            <h4>Platform</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>About us</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Our services</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Privacy policy</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Affiliate
+                  program</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li>
+                <a href="#"><i class="fa-solid fa-caret-right me-3"></i>FAQ</a>
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Account</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>More</h4>
+            <ul>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Course catalog</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Press</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>References</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Become an
+                  author</a
+                >
+              </li>
+              <li>
+                <a href="#"
+                  ><i class="fa-solid fa-caret-right me-3"></i>Our team</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="d-flex footerLinks mb-1 text-light p-1">
+              <i class="bi bi-facebook my-1 me-3"></i>
+              <i class="bi bi-instagram my-1 me-3"></i>
+              <i class="bi bi-linkedin my-1 me-3"></i>
+              <i class="bi bi-whatsapp my-1 me-3"></i>
+            </div>
+          </div>
+          <div id="linefooter"></div>
+          <h6 id="cop" class="text-center mb-3 p-0">
+            <img src="assets/soc2.svg" class="me-3 mb-2" height="48px" alt="" />
+            COPYRIGHT &copy; 2022 BY - Web.dev.
+          </h6>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

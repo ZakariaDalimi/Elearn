@@ -1,0 +1,363 @@
+body {
+    font-family: 'Nunito sans';
+    letter-spacing: 0.375px;
+    scroll-behavior: smooth;
+}
+ 
+.sectionHeader {
+    position: relative;
+    font-weight: 600 !important;
+    margin-bottom: 10px !important;
+}
+.Lined::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -10px;
+    background-color: #5553ff;
+    height: 3px;
+    box-sizing: border-box;
+    width: 180px;
+  }
+.bold {
+    font-weight: 600;
+}
+
+.bg-light {
+    background-color: #f7f8fd !important;
+}
+
+i {
+    cursor: pointer;
+}
+
+.navbar {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding: 0 !important;
+    height: 4rem;
+}
+
+.dropdown:hover .profile {
+    left: -65% !important;
+}
+.dropdown-item:active {
+    background-color: #f8f9fa;
+    color: #000;
+}
+#logo {
+    height: 24px !important;
+}
+
+#biglogo {
+    height: 38px;
+}
+
+
+.bbtn {
+    letter-spacing: 0.375px;
+    padding: 10px 1.2rem;
+    font-weight: 700;
+    background-color: #5553ff;
+    color: #fff;
+    border: none !important;
+}
+
+.bbtn:hover {
+    background-color: #2320cc;
+}
+
+h5 {
+    position: relative;
+    width: fit-content;
+}
+h5::after {
+    content: "";
+    position: absolute;
+    background-color: #5553ff;
+    height: 1px;
+    width: 120%;
+    left: 0;
+    bottom: -9px;
+    margin-left: 4px;
+}
+
+#join img {
+    height: 24px;
+    width: 24px;
+}
+
+.dropdown-menu {
+    box-shadow: rgb(0 0 0 / 24%) 0px 0px 8px;
+}
+
+.float-right .dropdown-menu[data-bs-popper] {
+    left: -65% !important;
+}
+
+#greeting p{
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+}
+
+#greeting p:hover {
+    background-color: #fff !important;
+}
+
+#smallline {
+    background-color: rgb(192, 192, 192) !important;;
+    height: 1px;
+}
+
+.pye-2 {
+    padding: 12px 16px;
+}
+
+#log {
+    background-color:transparent !important;
+    border: 1px solid #5553ff !important;
+    color: #5553ff;
+}
+
+
+.navLinks {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    padding-left: 0.8rem !important;
+    padding-right: 0.8rem !important;
+    font-size: 15px;
+}
+.btns {
+    padding-left: 0.4rem !important;
+    padding-right: 0.4rem !important;
+}
+.nav-link a {
+    color: rgb(34, 26, 26) !important;
+    opacity: 0.87;
+}
+
+.end {
+    width: 360px;
+}
+
+.normalButtons {
+    font-size: .9375rem;
+    font-weight: 600;
+}
+
+/* ------------------------------------------------ */
+.mainRow {
+    height: 26rem;
+    display: flex;
+    align-items:flex-end;
+}
+
+.lilTxt {
+    margin-bottom: 7px !important;
+    font-weight: 600 !important;
+}
+p {
+    font-size: 40px;
+}
+.titleab {
+    font-size: 36px !important;
+}
+.quote {
+    font-size: 1.4rem !important;
+}
+.desc {
+    line-height: 33px;
+    font-size: 20px;
+}
+.pg {
+    line-height: 30px;
+    font-size: 18px;
+}
+#start, #log {
+    padding: 10px 1.2rem !important;
+}
+
+#prom {
+    text-align: center;
+    color: #fff;
+    background-color: #455a7f;
+}
+
+#prom span, #prom i {
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+}
+
+#learn {
+    padding: 10px 1rem;
+    font-size: .9375rem !important;
+    background-color:transparent !important;
+    border: 1px solid rgba(0,0,0,.23) !important;
+    color: rgba(0,0,0,.87) !important;
+    font-weight: 700 !important;
+}
+
+
+.smallestText {
+    padding: 16px;
+    font-size: 15px !important;
+}
+
+.aboutus{
+    padding: 100px 2rem 80px 2rem;
+}
+
+
+/* Services / categories area */
+
+.services-area{
+    padding: 100px 2rem 80px 2rem;
+}
+
+.services-area .services{
+    border-radius: 15px;
+    background: #f7f8fd;
+    padding: 1.5rem 0 1.1rem 0;
+    width: 420px;
+    margin: 5rem .5rem;
+    transition: box-shadow .7s ease;
+    box-shadow: 0px 2px 3px rgba(57, 56, 61, 0.205);
+}
+
+.services-area .services:hover{
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+}
+.services-area #learn {
+    font-size: 14px !important;
+    border: none !important;
+    padding: 8px 16px !important;
+}
+.services-area #learn:hover {
+    background-color: rgba(194, 194, 199, .2) !important;
+}
+.services-area .card-title {
+    font-size: 20px;
+}
+.services-area .card-text {
+    font-size: 16px;
+    padding: 0 18px !important;
+}
+/* Services / categories area */
+
+/* Clients reviews area */
+.about-area {
+    padding: 100px 0 80px 0;
+}
+.about-area .container {
+    max-width: 1088px !important;
+}
+.about-area .client{
+    border-color: lightgray !important;
+    background: #fff;
+    box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
+    margin: 5rem 0rem;
+    border-radius: 12px;
+    min-height: 376px !important;
+}
+
+.about-area .client .client-img{
+    padding: 3rem 2rem;
+    width: 100px !important;
+}
+
+
+
+.about-area .client .about-client{
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.about-area .client .about-client h4{
+    margin-bottom: 0.30rem !important;
+    line-height: 24px !important;
+    font-size: 20px;
+    letter-spacing: 0.6px !important;
+}
+
+.about-area .client .about-client p{
+    font-size: 16px;
+    padding-right: 28px !important;
+    margin-bottom: 1.6rem !important;
+}
+.about-area .client .about-client p i{
+    font-size: 14px !important;
+}
+
+.about-area .owl-carousel .owl-item{
+    display: flex;
+    justify-content: center;
+    padding: 0 1.5rem;
+}
+
+.about-area .owl-carousel .owl-dots .owl-dot.active span{
+    background: #5553ff;
+    width: 12px;
+    height: 12px;
+}
+/* Clients reviews area */
+
+
+/* LOGOS AREA */
+.slick-slide{
+    margin: 0 20px;
+}
+.slick-slide img{
+    width: 92px !important;
+}
+.slick-slider{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+}
+.slick-list{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block
+}
+.slick-slide{
+    display: none;
+    float: left;
+    height: 100%;
+    min-height: 1px;
+}
+.slick-slide img{
+    display: block;
+}
+.slick-initialized .slick-slide{
+    display: block;
+}
+/* LOGOS AREA */
+
+@media screen and (max-width: 992px) {
+    .mainRow {
+        margin-bottom: 18rem;
+    }
+    .navbar {
+        height: auto !important;
+    }
+}
+
+/* @media screen and (max-width: 768px) {
+    #prom {
+        height: fit-content !important;
+    }
+    #prom span, #prom i {
+        line-height: normal !important;
+    }
+} */

@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Muli&display=swap");
+
+.title-row {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.title-area {
+    padding: 4.5rem 0 4rem 0;
+}
+
+.mainContent .container {
+    max-width: 1100px !important;
+}
+.cr {
+    color: #5553ff !important;
+	width: 48px !important;
+	height: 48px !important;
+	border-radius: 50%;
+}
+.card-title {
+	font-size: 20px;
+}
+
+.smallerContent .container {
+    max-width: 1000px !important;
+}
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.course h6 {
+    font-size: 14px;
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+    font-size: 24px;
+	letter-spacing: 1px;
+	margin: 14px 0;
+    line-height: 36px;
+}
+
+.course-preview {
+	min-width: 260px !important;
+	padding: 30px;
+}
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+}
+
+.progress-text {
+	opacity: 0.6;
+    font-size: 14px;
+	letter-spacing: 1px;
+}
+
+.course .buttons {
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+    margin: 0 !important;
+}
+.level {
+    position: absolute;
+    bottom: 30px;
+}
+.level span {
+    font-size: 1rem;
+}
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: transparent;
+}
+.noselect {
+	width: 160px;
+	height: 48px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	border:  1px solid lightgray;
+	background: #d12626;
+}
+
+.noselect,
+span {
+	transition: 200ms;
+}
+
+.noselect .text {
+	transform: translateX(35px);
+	color: white;
+	font-weight: bold;
+}
+
+.noselect .icon {
+	position: absolute;
+	border-left: 1px solid #c41b1b;
+	transform: translateX(110px);
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.noselect svg {
+	width: 15px;
+	fill: #eee;
+}
+
+.noselect:hover {
+	background: #d12626;
+}
+
+.noselect:hover .text {
+	color: transparent;
+}
+
+.noselect:hover .icon {
+	width: 150px;
+	border-left: none;
+	transform: translateX(0);
+}
+
+.noselect:focus {
+	outline: none;
+}

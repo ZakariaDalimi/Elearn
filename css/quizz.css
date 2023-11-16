@@ -1,0 +1,44 @@
+.heading {
+    padding: 5rem 0 3rem 0;
+
+}
+.minicards {
+    background-color: rgb(245 245 245/1);
+    font-size: 15px;
+    width: max-content;
+    border-radius: 0.25rem;
+    margin: 1.5rem auto !important;
+}
+
+.qst {
+    font-size: 20px !important;
+    width: 50%;
+    background-color: #f8f9fa;
+    border-radius: 1rem;
+}
+.question {
+    width: 50%;
+    font-size: 20px !important;
+}
+.list-group {
+    margin: 1.4rem 0;
+    font-size: 16px;
+}
+.list-group-item {
+ padding: 1rem ;
+}
+.buttons a {
+    width: 49% !important;
+}
+.buttons a {
+    background-color: #7270f7 !important;
+}
+#learn {
+    color: #fff !important;
+}
+.buttons a:hover {
+    background-color: #5553ff !important;
+}
+form {
+    width: 50% !important;
+}
